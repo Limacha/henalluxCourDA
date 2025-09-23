@@ -16,3 +16,15 @@
 
 dos (denial of service): surcharge des services
 ddos (distributive denial of service): volontaire
+
+1) meme langue
+2) structure
+3) echange sans impact couche au dessus
+
+model couche
++ structure le raisonnement
++ changement dans 1 pas affecte autre
++ renforce compet
++ meme language
+- theorique
+

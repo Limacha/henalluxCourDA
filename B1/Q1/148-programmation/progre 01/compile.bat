@@ -5,12 +5,12 @@ if "%~1"=="" (
     exit /b 1
 )
 
-REM === Charger l'environnement de compilation ===
-call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
-
 REM === Créer les dossiers de build si nécessaires ===
 if not exist build mkdir build
 if not exist build\obj mkdir build\obj
+
+REM === Charger l'environnement de compilation ===
+call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
 
 REM === Extraire le nom du fichier sans extension ===
 for %%F in (%~1) do set FILENAME=%%~nF

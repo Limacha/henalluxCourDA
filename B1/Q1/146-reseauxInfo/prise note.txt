@@ -1,0 +1,22 @@
+4 points cle:
+	Tolérances aux pannes:
+		si matos crash peut quand meme marcher
+	Evolutivité:
+		hierarchie
+		standar communs
+		protocoles communs
+		RFC (request for comment)
+	Qualité des services:
+		prioriter
+	Sécurité:
+		confidentialite
+		integrite
+		accessibilite
+			spof (singel point of failure): critique car si crash -> shit
+
+dos (denial of service): surcharge des services
+ddos (distributive denial of service): volontaire
+
+1) meme langue
+2) structure
+3) echange sans impact couche au dessus
